@@ -1,0 +1,440 @@
+* {
+    box-sizing: border-box;
+    line-height: 1;
+}
+.wrap {
+    width: 960px;
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(8, 120px);
+    grid-template-rows: repeat(20, 100px);
+}
+.logo {
+    display: grid;
+    grid-column: 1/9;
+    grid-row: 1/2;
+    text-align: center;
+    align-self: start;
+    justify-self: center;
+}
+.logo span {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 2px 9px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+}
+.title {
+    grid-column: 1/9;
+    grid-row: 1/2;
+    font-size: 72px;
+    margin-top: 42px;
+    font-family: Roboto-Black;
+    font-weight: bold;
+    text-align: center;
+}
+.zone1 {
+    background-image: url(../images/01.jpg);
+    grid-column: 1/5;
+    grid-row: 3/7;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number1 {
+    bottom: -48px;
+}
+.pro-bg1 {
+    top: -10px;
+}
+.pro-bg-set1:after {
+    content: "LINEN BLAZER";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set1:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set1:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm1 {
+    transform: rotate(-270deg);
+    right: -75px;
+    bottom: 25px;
+}
+.frame1 {
+    width: 240px;
+    height: 200px;
+    right: -60px;
+    top: -60px;
+    z-index: -1;
+}
+.stripe1 {
+    left: 60px;
+    bottom: -50px;
+}
+.stripe1 {
+    border-color: #50E3C2;
+}
+.zone2 {
+    background-image: url(../images/02.jpg);
+    grid-column: 6/8;
+    grid-row: 4/6;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number2 {
+    right: -120px;
+    top: -120px;
+}
+.pro-bg2 {
+    right: -85px;
+    bottom: -65px;
+}
+.pro-bg-set2:before,
+.pro-bg-set2:after {
+    content: "FREELIFT";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set2:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set2:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm2 {
+    left: -10px;
+    top: -25px;
+}
+.frame2 {
+    width: 240px;
+    height: 200px;
+    right: -120px;
+    top: -120px;
+    z-index: -1;
+}
+.box2 {
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    background-color: #50E3C2;
+    right: -60px;
+    top: -60px;
+    z-index: -1;
+}
+.zone3 {
+    background-image: url(../images/03.jpg);
+    grid-column: 1/5;
+    grid-row: 9/11;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number3 {
+    right: -55px;
+    bottom: -45px;
+}
+.pro-bg3 {
+    right: 5px;
+    top: -45px;
+}
+.pro-bg-set3:before,
+.pro-bg-set3:after {
+    content: "SUPER SKINNY";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set3:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set3:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm3 {
+    left: 30px;
+    bottom: -25px;
+}
+.frame3 {
+    width: 240px;
+    height: 200px;
+    right: -60px;
+    bottom: -50px;
+    z-index: -1;
+}
+.box3 {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    background-color: #50E3C2;
+    top: -60px;
+    z-index: -1;
+}
+.zone4 {
+    background-image: url(../images/04.jpg);
+    grid-column: 7/9;
+    grid-row: 9/13;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number4 {
+    left: -55px;
+    bottom: 0;
+}
+.pro-bg4 {
+    transform: rotate(270deg);
+    left: -95px;
+    top: 50px;
+}
+.pro-bg-set4:before,
+.pro-bg-set4:after {
+    content: "DENIM";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set4:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set4:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm4 {
+    transform: rotate(-270deg);
+    right: -10px;
+    top: -85px;
+}
+.frame4 {
+    width: 240px;
+    height: 200px;
+    left: -60px;
+    top: -100px;
+    z-index: -1;
+}
+.stripe4 {
+    bottom: -50px;
+}
+.zone5 {
+    background-image: url(../images/05.jpg);
+    grid-column: 3/5;
+    grid-row: 13/15;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number5 {
+    left: -120px;
+    bottom: 0;
+}
+.pro-bg5 {
+    left: -240px;
+    top: 50px;
+    z-index: 2;
+}
+.pro-bg-set5:before,
+.pro-bg-set5:after {
+    content: "SWEATSHIRTS";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set5:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set5:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm5 {
+    width: 150px;
+    left: 240px;
+    top: 0;
+}
+.frame5 {
+    width: 240px;
+    height: 100px;
+    left: -120px;
+    bottom: -50px;
+    z-index: -1;
+}
+.stripe5 {
+    left: -180px;
+    top: -50px;
+    z-index: 1;
+}
+.zone6 {
+    background-image: url(../images/06.jpg);
+    grid-column: 5/9;
+    grid-row: 15/19;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number6 {
+    left: -55px;
+    top: 150px;
+}
+.pro-bg6 {
+    width: 400px;
+    right: -40px;
+    top: -50px;
+}
+.pro-bg-set6:before,
+.pro-bg-set6:after {
+    content: "VINTAGE DENIM";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set6:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set6:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm6 {
+    right: 170px;
+    bottom: -25px;
+}
+.frame6 {
+    width: 480px;
+    height: 200px;
+    bottom: -50px;
+    z-index: -1;
+}
+.box6 {
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    background-color: #50E3C2;
+    left: -60px;
+    bottom: 0;
+    z-index: -1;
+}
+.zone7 {
+    background-image: url(../images/07.jpg);
+    grid-column: 1/3;
+    grid-row: 17/21;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.number7 {
+    right: -120px;
+    bottom: 0;
+}
+.pro-bg7 {
+    transform: rotate(90deg);
+    left: 175px;
+    top: 65px;
+}
+.pro-bg-set7:before,
+.pro-bg-set7:after {
+    content: "EDITION";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.pro-bg-set7:before {
+    top: -16px;
+    color: rgba(0, 0, 0, 0.30);
+    height: 22px;
+}
+.pro-bg-set7:after {
+    width: 350px;
+    top: -25px;
+    color: rgba(0, 0, 0, 0.10);
+    height: 16px;
+}
+.pro-sm7 {
+    width: 150px;
+    left: 0;
+    top: -25px;
+}
+.frame7 {
+    width: 240px;
+    height: 300px;
+    right: -60px;
+    top: -60px;
+    z-index: -1;
+}
+.box7 {
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    background-color: #50E3C2;
+    right: -120px;
+    bottom: 0;
+    z-index: -1;
+}
+/* 數字 */
+.number-set {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+}
+/* 產品介紹 - 大 */
+.pro-bg-set {
+    position: absolute;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+/* 產品介紹 - 小 */
+.pro-sm-set {
+    font-size: 24px;
+    font-family: Roboto;
+    position: absolute;
+    font-style: italic;
+    font-weight: bold;
+}
+.frame-set {
+    border: 20px solid #50E3C2;
+    position: absolute;
+}
+/* stripe 條紋 */
+.stripe {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    background-image: linear-gradient(135deg, #50E3C2 0px, #50E3C2 20px, transparent 20px, transparent 40px, #50E3C2 40px, #50E3C2 60px, transparent 60px, transparent 80px);
+    background-size: 56px 56px;
+}
